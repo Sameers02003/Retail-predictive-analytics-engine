@@ -118,7 +118,3 @@ and shows the checks work. See `docs/monitoring.md`.
 - `docs/limitations.md`: limitations, bias and what an anomaly score means
 - `docs/monitoring.md`: monitoring plan and retraining criteria
 - `docs/architecture.md`: architecture diagram
-
-## Screenshots
-
-Test run, monitor output and API docs are in `docs/screenshots/`.
