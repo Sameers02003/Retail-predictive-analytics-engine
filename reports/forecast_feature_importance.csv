@@ -1,0 +1,12 @@
+feature,importance_pct
+sales_mean_28d,43.1
+sales_mean_7d,14.6
+day_of_week,10.4
+store_type_code,7.8
+sales_lag_7,5.0
+sales_lag_28,4.6
+sales_lag_14,4.6
+month,3.2
+day_of_month,2.8
+is_weekend,2.5
+is_festive_season,1.5

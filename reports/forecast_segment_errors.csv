@@ -1,0 +1,12 @@
+segment_type,segment,baseline_WAPE_pct,lightgbm_WAPE_pct,improvement_pts
+store_type,Express,50.8,38.4,12.399999999999999
+store_type,Flagship,37.0,27.2,9.8
+store_type,Standard,43.7,33.5,10.200000000000003
+region,East,45.3,34.0,11.299999999999997
+region,North,45.4,34.2,11.199999999999996
+region,South,48.9,38.7,10.199999999999996
+region,West,40.0,29.1,10.899999999999999
+month_name,2025-09,50.0,35.6,14.399999999999999
+month_name,2025-10,42.6,31.2,11.400000000000002
+month_name,2025-11,39.9,31.0,8.899999999999999
+month_name,2025-12,47.7,38.1,9.600000000000001

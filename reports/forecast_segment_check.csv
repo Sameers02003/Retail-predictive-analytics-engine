@@ -1,0 +1,8 @@
+segment_type,segment,store_days,avg_actual_rs,avg_predicted_rs,bias_pct,WAPE_pct,bias_flag,wape_gap_flag,model_version,created_at
+store_type,Express,732,83362,82780,-0.7,38.4,False,False,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+store_type,Flagship,244,182132,184245,1.2,27.2,False,False,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+store_type,Standard,488,118179,122041,3.3,33.5,False,False,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+region,East,366,99814,105720,5.9,34.0,True,False,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+region,North,366,121349,119527,-1.5,34.2,False,False,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+region,South,366,93650,94267,0.7,38.7,False,True,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+region,West,366,130903,131597,0.5,29.1,False,False,forecast_lgbm_v1,2026-11-02T10:12:44+00:00

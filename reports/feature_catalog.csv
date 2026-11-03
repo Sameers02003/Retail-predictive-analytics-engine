@@ -1,0 +1,12 @@
+feature,group,description,why_available_at_prediction_time
+day_of_week,Calendar,0 = Monday ... 6 = Sunday,Date is known in advance
+is_weekend,Calendar,1 on Saturday/Sunday,Date is known in advance
+month,Calendar,1-12,Date is known in advance
+day_of_month,Calendar,1-31,Date is known in advance
+is_festive_season,Calendar,1 in October-November,Date is known in advance
+store_type_code,Store,"Express 0, Standard 1, Flagship 2",Store type is fixed
+sales_lag_7,Recent sales,Sales on the same weekday 1 week earlier,Exactly 7 days back
+sales_lag_14,Recent sales,Sales on the same weekday 2 weeks earlier,14 days back
+sales_lag_28,Recent sales,Sales on the same weekday 4 weeks earlier,28 days back
+sales_mean_7d,Recent sales,Average daily sales over the 7 days ending 7 days before,Window ends 7 days back (shift before rolling)
+sales_mean_28d,Recent sales,Average daily sales over the 28 days ending 7 days before,Window ends 7 days back (shift before rolling)

@@ -1,0 +1,13 @@
+store_id,store_name,region,store_type,orders,customers,revenue_lakh,avg_order_value
+S009,Lucknow Flagship,North,Flagship,12373,1316,1033.5,8353.0
+S005,Pune Flagship,West,Flagship,11077,1294,936.1,8451.0
+S004,Mumbai Standard,West,Standard,8020,1100,669.5,8348.0
+S011,Bhubaneswar Standard,East,Standard,7165,1080,594.8,8302.0
+S010,Kolkata Standard,East,Standard,7072,1075,579.5,8194.0
+S002,Hyderabad Standard,South,Standard,6766,1064,576.4,8519.0
+S007,Delhi Express,North,Express,5464,990,458.2,8385.0
+S012,Guwahati Express,East,Express,4976,966,420.3,8447.0
+S008,Jaipur Express,North,Express,4989,972,407.2,8163.0
+S003,Chennai Express,South,Express,4765,990,395.7,8305.0
+S001,Bengaluru Express,South,Express,4617,980,388.7,8420.0
+S006,Ahmedabad Express,West,Express,4470,976,372.5,8334.0

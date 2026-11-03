@@ -1,0 +1,16 @@
+example,store_id,date,actual_sales,predicted_sales,feature,feature_value,shap_contribution_rs,model_version,created_at
+"Flagship store, festive Saturday",S005,2025-10-25,242730.0,247664.82,sales_mean_28d,184140.5,62717.71,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+"Flagship store, festive Saturday",S005,2025-10-25,242730.0,247664.82,day_of_week,5.0,28931.24,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+"Flagship store, festive Saturday",S005,2025-10-25,242730.0,247664.82,store_type_code,2.0,22641.79,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+"Flagship store, festive Saturday",S005,2025-10-25,242730.0,247664.82,sales_mean_7d,205698.71,16721.23,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+"Flagship store, festive Saturday",S005,2025-10-25,242730.0,247664.82,is_festive_season,1.0,9075.42,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+"Express store, ordinary Monday",S001,2025-09-15,24176.0,54725.02,sales_mean_28d,59822.7,-12530.71,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+"Express store, ordinary Monday",S001,2025-09-15,24176.0,54725.02,day_of_week,0.0,-10267.23,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+"Express store, ordinary Monday",S001,2025-09-15,24176.0,54725.02,store_type_code,0.0,-6565.6,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+"Express store, ordinary Monday",S001,2025-09-15,24176.0,54725.02,is_weekend,0.0,-1685.32,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+"Express store, ordinary Monday",S001,2025-09-15,24176.0,54725.02,sales_mean_7d,53952.36,-1444.76,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+Largest miss in test period,S002,2025-10-14,1600240.5,119546.89,sales_mean_28d,104633.38,14315.71,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+Largest miss in test period,S002,2025-10-14,1600240.5,119546.89,day_of_week,1.0,-12080.88,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+Largest miss in test period,S002,2025-10-14,1600240.5,119546.89,is_festive_season,1.0,11016.33,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+Largest miss in test period,S002,2025-10-14,1600240.5,119546.89,month,10.0,6499.71,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+Largest miss in test period,S002,2025-10-14,1600240.5,119546.89,sales_mean_7d,117192.86,5450.2,forecast_lgbm_v1,2026-11-02T10:12:44+00:00

@@ -1,0 +1,12 @@
+check,table,column,issue,rows_affected,pct_of_table,severity,planned_action
+missing_values,customers,city,blank value,50,1.25,Low,Fill with 'Unknown'; city is not a model input
+missing_values,orders,customer_id,blank value,246,0.3,Medium,Keep for sales forecasting; exclude from churn (can't be linked to a customer)
+missing_values,orders,order_ts,blank value,7,0.01,High,Recover date from the successful payment time
+missing_values,order_items,unit_price,blank value,40,0.02,Medium,Fill with the product's list price
+duplicates,customers,customer_id,exact duplicate row,15,0.37,Low,Drop the extra copies
+duplicates,orders,order_id,exact duplicate row,326,0.4,High,Drop the extra copies (otherwise sales are double counted)
+duplicates,orders,order_id,"same ID, different content",1,0.0,High,Keep the copy that has a customer_id
+dates,orders,order_ts,unparseable date,8,0.01,High,Recover date from the successful payment time
+dates,orders,order_ts,date in the future,10,0.01,High,Recover date from the successful payment time
+numbers,order_items,quantity,below allowed minimum,60,0.03,High,Remove these item lines (impossible purchases)
+categories,products,category,value not in allowed list,36,12.0,Medium,Map variants to the 5 standard categories; assume 'Apparel' = 'Fashion'

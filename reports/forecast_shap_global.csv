@@ -1,0 +1,12 @@
+feature,mean_abs_shap_rs,share_pct,model_version,created_at
+sales_mean_28d,20222.0,30.5,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+day_of_week,11944.0,18.0,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+store_type_code,9339.0,14.1,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+is_festive_season,5273.0,8.0,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+sales_mean_7d,4184.0,6.3,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+month,4044.0,6.1,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+is_weekend,3095.0,4.7,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+sales_lag_7,2990.0,4.5,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+sales_lag_28,2138.0,3.2,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+sales_lag_14,1774.0,2.7,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+day_of_month,1202.0,1.8,forecast_lgbm_v1,2026-11-02T10:12:44+00:00

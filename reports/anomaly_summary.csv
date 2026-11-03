@@ -1,0 +1,6 @@
+metric,value,model_version,created_at
+Successful transactions checked,81874,anomaly_rules_iforest_v1,2026-11-02T11:59:37+00:00
+Transactions flagged,349,anomaly_rules_iforest_v1,2026-11-02T11:59:37+00:00
+High priority flags,238,anomaly_rules_iforest_v1,2026-11-02T11:59:37+00:00
+Medium priority flags,45,anomaly_rules_iforest_v1,2026-11-02T11:59:37+00:00
+Low priority flags,66,anomaly_rules_iforest_v1,2026-11-02T11:59:37+00:00

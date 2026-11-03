@@ -1,0 +1,7 @@
+limitation
+Daily store-level sales are noisy: even the better model is off by about 34% on a typical day. Weekly totals would be much more accurate if the business only needs weekly planning.
+Small (Express) stores have higher error (38%) than Flagships (27%) because a few large orders swing their totals.
+"Only one previous festive season (2024) was available for training, so festive forecasts rest on limited history."
+Forecasts are of gross sales; about 3.9% of item revenue is later returned.
+"The model assumes the future behaves like the past: new stores, promotions or price changes are not known to it."
+The data is synthetic; accuracy on real retail data would need to be re-measured.

@@ -1,0 +1,9 @@
+topic,finding,use_in_project
+Trend,"Revenue grew from Rs 14 lakh (Jan 2024) to about Rs 350 lakh per month by 2025, because active customers grew from 89 to about 1,600. 2025 is stable.",Early 2024 is a build-up phase; forecasting must not treat it as normal.
+Weekly pattern,Saturday is 28% and Sunday 20% above an average day; Monday is 17% below.,Day of week becomes a feature; baseline = same weekday last week.
+Yearly pattern,October (+32%) and November (+23%) peak (festive); June and July dip about 13% (monsoon).,Month and a festive-season flag become features.
+Stores,"A Flagship store earns about 2.4x an Express store. Average order value is about Rs 8,300 everywhere, so big stores win on number of orders, not basket size.",Forecast per store; store type becomes a feature.
+Regions,"West and North lead, but mostly because they have Flagship stores; South has none.","Compare forecast errors by store type, not just by region."
+Categories,Electronics brings the most revenue; Grocery has the best margin (28%); Fashion the worst (18%). Overall margin is 21%.,Category-level forecasts are possible as a later extension.
+Discounts,Margin falls from 28% at no discount to -3% at 30% off. 25-30% discounts happen only in October-November.,Festive revenue is high but less profitable; noted for the business.
+Returns,"About 3.9% of item lines are returned (Rs 264 lakh), evenly across categories and discounts.",We forecast gross sales (including later returns) and state this clearly.

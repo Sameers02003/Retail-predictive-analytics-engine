@@ -1,0 +1,7 @@
+topic,note,model_version,created_at
+Bias,"East region is over-forecast by about 6% in the test period (limit 5%). Monitor after retraining; if it persists, East stores would receive slightly too much stock.",forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+Accuracy gap,"Express stores have higher error (38%) than Flagship stores (27%). This is day-to-day noise in small stores, not a systematic lean (bias -0.7%).",forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+Unpredictable events,Single huge orders (for example Rs 16 lakh at S002 on 2025-10-14) cannot be forecast. They are caught by the anomaly workflow instead (Step 7).,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+Scope of fairness,"The model uses no personal or customer data, only store and calendar information, so fairness is checked across stores, store types and regions.",forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+Explainability method,SHAP values are computed with LightGBM's built-in TreeSHAP (pred_contrib=True); the contributions add up exactly to each prediction.,forecast_lgbm_v1,2026-11-02T10:12:44+00:00
+Synthetic data,All findings come from synthetic data and must be re-checked on real data.,forecast_lgbm_v1,2026-11-02T10:12:44+00:00

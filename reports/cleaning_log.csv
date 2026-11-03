@@ -1,0 +1,11 @@
+table,action,rows_affected,cleaned_at
+products,standardised category label,36,2026-11-02T11:59:28+00:00
+customers,dropped exact duplicate rows,15,2026-11-02T11:59:28+00:00
+customers,filled blank city with 'Unknown',50,2026-11-02T11:59:28+00:00
+orders,dropped exact duplicate rows,326,2026-11-02T11:59:28+00:00
+orders,resolved same-ID conflicts (kept copy with customer),1,2026-11-02T11:59:28+00:00
+orders,recovered bad order date from payment time,25,2026-11-02T11:59:28+00:00
+orders,marked blank customer_id as missing,245,2026-11-02T11:59:28+00:00
+order_items,removed lines with quantity 0 or less,60,2026-11-02T11:59:28+00:00
+order_items,filled missing unit_price with list price,40,2026-11-02T11:59:28+00:00
+orders,removed orders left with no valid items,8,2026-11-02T11:59:28+00:00
